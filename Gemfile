@@ -57,3 +57,10 @@ group :development, :test do
   gem 'hirb-unicode'
 end
 
+group :development, :test do
+  gem 'rspec-rails', '~> 3.7'
+end
+
+group :development, :test do
+  gem 'factory_bot_rails'
+end
